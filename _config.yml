@@ -29,7 +29,7 @@ resume-url: https://drive.google.com/file/d/1_v7hAoV5dKxfCdzXaScg-SFFNI-vITz6/vi
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: www.linkedin.com/in/kiran-ramlogan    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: kiran-ramlogan    # https://www.linkedin.com/in/{your url slug} 
   github:     # https://github.com/{your url slug} 
   stackoverflow:       # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
@@ -43,46 +43,35 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
+  - category: Electrical Engineering
+    tools:
+    - Altium Designer
+    - Ansys HFSS
+    - LTSpice 
+    - STM32 CubeIDE
+    - GNU Radio
+    - Arduino / Raspberry Pi
+    - DE1-SoC FPGA
+
+    - category: Coding
+    tools:
+    - Python
+    - C/C++
+    - C#
+    - System Verilog
+    - RISC-V Assembly
+    - Bash 
+    - HTML/CSS
+    - R 
+
   - category: 3D Modeling
     tools:
     - Onshape
-    - Solidworks
-    - Creo
     - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
-    tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
-    tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
-    tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - AutoCAD
+    - Prusa Slicer
+
+
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
