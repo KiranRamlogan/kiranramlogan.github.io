@@ -18,7 +18,7 @@ main-image: /robotic_arm.jpg
 In this project, I developed the architecture of the electrical system, created a power budget, and modelled and 3D printed the claw mechanism.
 
 ## Electrical System Design
-{% include image-gallery.html images="Top_Level.png" height="400" %} 
+{% include image-gallery.html images="Top_Level.png" height="700" %} 
 
 The heart of the electrical system was the two Raspberry Pi Pico microcontrollers, one used for actuating the motors and reading
 the limit switches, and the other used for sensing and computation with the time of flight (ToF) sensor. For simplicity, UART was chosen
@@ -28,7 +28,7 @@ communication with motors and limit switches. <br>
 A star grounding scheme was implemented to minimize noise from high power stepper motors affecting sensitive PWM, I2C, and UART signals. In addition decoupling capacitors were strategically placed across servo motor power lines to filter out any remaining noise. 
 
 ## Power Budget
-{% include image-gallery.html images="Power_Budget.png" height="400" %} 
+{% include image-gallery.html images="Power_Budget.png" height="500" %} 
 
 To power all components, two buck converters were used with one at 5V and the other at 7.3V. The power budget was used to ensure our all components received sufficient power and the ratings of the buck converters were not exceeded.
 
