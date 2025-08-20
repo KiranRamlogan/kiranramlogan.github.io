@@ -17,7 +17,7 @@ ODMR is most commonly done with negatively charged nitrogen-vacency (NV-) center
 To overcome these challenges I came up with the antenna design pictured above. The design is based off a circular patch antenna, commonly used for NV- centers, but has a circular parasitic element resembling a double split-ring resonator. The gap between the circular patch and the parasitic element increases the capacitance of the antenna, reducing resonance frequency without significantly increasing the diameter of the circular patch. To optimize the design, a series of parametric sweeps and optimization algorithms in Ansys HFSS was used for fine tuning of dimensions and feedline impedance matching. The simulation of the final design is shown below.
 
 ## Antenna Design
-{% include image-gallery.html images="s11_parameter.png" height="700" %} 
+{% include image-gallery.html images="s11_parameter.png" height="500" %} 
 
 With a low input reflection coefficient (S11) and wide bandwidth, this antenna can efficiently excite the electrons in the TR12 centers over a wide range of applied magnetic fields.
 
@@ -27,6 +27,6 @@ With a low input reflection coefficient (S11) and wide bandwidth, this antenna c
 The patch antenna design was moved from Ansys HFSS to Altium Designer for fabrication. 
 
 ## Experiment
-{% include image-gallery.html images="lasers.png" height="400" %} 
+{% include image-gallery.html images="lasers.jpg" height="500" %} 
 
 Although the experiment has yet to be run with the antenna design above, many experiments were ran with other antennas around in the lab. A challenging part of the setup was aligning the laser beam and focussing on the diamond sample for accurate optical readout. 
