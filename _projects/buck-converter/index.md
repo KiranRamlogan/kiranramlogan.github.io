@@ -8,7 +8,7 @@ skills:
 - Power Design
 - Soldering
 - Testing
-main-image: /antenna.png
+main-image: /3d_pcb.png
 ---
 
 In this project I went through the entire design process for the 5V buck converter from drawing a schematic, doing the layout, soldering the components, and testing the finished board.
