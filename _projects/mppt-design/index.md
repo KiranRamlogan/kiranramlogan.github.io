@@ -42,9 +42,9 @@ To allow for proper power point tracking, the digital potentiometer provides a v
 
 The power monitors that had been designed by the team previouly were very sensitive to fast voltage changes which often caused inaccurate readings. To counter this I added a RC filter to the sense resistor voltage measurement pins.
 
-{% include image-gallery.html images="power_monitor_sch" height="500" %} 
+{% include image-gallery.html images="power_monitor_sch.png" height="500" %} 
 
-{% include image-gallery.html images="power_monitor_lay" height="500" %} 
+{% include image-gallery.html images="power_monitor_lay.png" height="500" %} 
 
 ## Power OR-ing (Ideal Diodes)
 {% include image-gallery.html images="oring.png" height="500" %} 
