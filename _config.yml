@@ -24,8 +24,7 @@ profile_image: ./assets/images/profile-image/avatar.jpg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/1_v7hAoV5dKxfCdzXaScg-SFFNI-vITz6/view?usp=sharing
-
+resume-url: https://drive.google.com/file/d/1_bJ9P4ZwcF2kXTXj6m7S2iRa5mvVKOHq/view?usp=sharing
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
