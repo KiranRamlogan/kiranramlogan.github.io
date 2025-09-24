@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Maximum Power Point Tracking (MPPT)
+title: Satellite Solar Generation Stage
 description:
-    The University of Toronto Aerospace Team (UTAT) Space Systems division is developing the FINCH satellite. To efficiently power the satellite through the solar array a Maximum Power Point Tracking (MPPT) system is essential. 
+    The University of Toronto Aerospace Team (UTAT) Space Systems division is developing the FINCH satellite. A major part of the satellite's power system is the solar generation stage. This design features OR-ing of multiple solar panels and individual Maximum Power Point Tracking (MPPT).
 skills: 
 - Altium Designer
 - Power Integrity
@@ -47,5 +47,8 @@ The power monitors that had been designed by the team previouly were very sensit
 {% include image-gallery.html images="power_monitor_lay.png" height="500" %} 
 
 ## Power OR-ing (Ideal Diodes)
+
+Although both MPPTs are almost identical, voltage differences caused by component tolerances may cause current to flow from one MPPT into another. To eliminate this possiblity, ideal diodes prevent reverse current flow while having lower on resistance than traditional diodes.
+
 {% include image-gallery.html images="oring.png" height="500" %} 
 

@@ -2,7 +2,7 @@
 layout: post
 title: 5V Buck Converter
 description:
-    The University of Toronto Aerospace Team (UTAT) Space Systems division is developing the FINCH satellite. To power components of the satellite such as the star tracker and the transceiver, swithching converters are used to convert battery voltage to 5V. 
+    The University of Toronto Aerospace Team (UTAT) Space Systems division is developing the FINCH satellite. To power components of the satellite such as the star tracker and the transceiver, switching converters are used to convert battery voltage to 5V. 
 skills: 
 - Altium Designer
 - Power Design
